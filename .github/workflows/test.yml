@@ -1,4 +1,4 @@
-name: Test-Project
+name: Test Project
 
 on:
   pull_request:
@@ -15,6 +15,5 @@ jobs:
         with:
           node-version: 20
       - run: npm ci
-      - run: npm test
-      
+      - run: npm test  
       - run: npm run build
