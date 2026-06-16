@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:e2e": "playwright __test__",
+    "test:e2e": "playwright test",
     "dev": "npm run start --stage local",
     "start": "node --require ts-node/register src/index.ts",
     "build:clean": "rm -rf ./dist/*; rm ./dist/*; mkdir ./dist/logs;",
